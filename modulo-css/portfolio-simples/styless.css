@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #2d4168;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: gray;
+}
+
+.skill-1 {
+    color: #070606da;
+}
+.skill-2 {
+    color: #0e0c0c;  
+}
+
+.skill-3 {
+    color: #0a0909;
+}
+
+.bio p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer button {
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+footer button:hover {
+    background-color: #005582;
+}
