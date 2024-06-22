@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.0;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -17,20 +17,23 @@ body {
     background-color: #800080;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 .hero-section {
-    background-color: #9b59b6;
+    background-color: #a03ed8;
     height: 200px;
 }
 
 .content {
-    padding: 20px;
+    background-color: #a03ed8;
+    color: #fff;
     text-align: center;
+    padding: 60px 0;
 }
 
-.content h2 {
+h2 {
+    text-align: center;
     color: #800080;
     margin-bottom: 20px;
 }
@@ -41,17 +44,9 @@ body {
     line-height: 1.5;
 }
 
-.team {
+.team-1 {
     padding: 20px;
     text-align: center;
-}
-
-.team h2 {
-    color: #800080;
-    margin-bottom: 20px;
-}
-
-.team {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -59,11 +54,10 @@ body {
 
 .team-member {
     text-align: center;
-    flex: 1;
 }
 
 .circle {
-    background-color: #800080;
+    background-color: #a03ed8;
     color: #fff;
     border-radius: 50%;
     width: 100px;
