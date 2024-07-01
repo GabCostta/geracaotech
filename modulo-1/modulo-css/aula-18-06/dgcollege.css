@@ -58,7 +58,9 @@ h2 {
 
 .circle {
     background-color: #a03ed8;
-    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    color: #800080;
     border-radius: 50%;
     width: 100px;
     height: 100px;
