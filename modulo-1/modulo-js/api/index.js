@@ -18,6 +18,7 @@ function buscarRegioes() {
     fetch("https://servicodados.ibge.gov.br/api/v1/localidades/regioes")
     .then(res => res.json())
     .then(res => {
+        regioes.innerHTML = '<option value="">Selecione uma Regiao</option>';
         res.map(regiao => {
             regioes.innerHTML += `<option value="${regiao.id}">${regiao.nome}</option>`;
         })
