@@ -65,7 +65,7 @@ function deletarTarefa(id) {
 }
 
 function pesquisarTarefas() {
-    let lis = document.querySelector("ul li");
+    let lis = document.querySelectorAll("ul li");
     if(busca.value.length > 0){
         lis.forEach(li => {
           if(li.children[0].innerText.includes(busca.value)){
