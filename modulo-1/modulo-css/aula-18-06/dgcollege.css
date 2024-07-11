@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #800080;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.hero-section {
+    background-color: #a03ed8;
+    height: 200px;
+}
+
+.content {
+    background-color: #a03ed8;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #800080;
+    margin-bottom: 20px;
+}
+
+.content p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.team-1 {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.circle {
+    background-color: #a03ed8;
+    font-size: larger;
+    font-weight: bold;
+    color: #800080;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+}
+
+.footer {
+    background-color: #800080;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
